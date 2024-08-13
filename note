@@ -1,0 +1,10 @@
+Pour le repertoire access_log_scripts il y'a trois scripts dédiié pour le fichier global access_log
+extract_ip.sh permet d'extraire les logs du jour actuel et les enregistrés dans un fichier 
+last_f.sh permet d'extraire les logs des derniers 24h et les enregistrés dans un fichier
+analyse_traffic.sh permet de faire une anlyse sur le fichier géneré par le script last_f.sh
+
+
+pour le repertoire catalina_scripts il est dédié pour le fichier catalina.out, le script filter_catalina.sh permet d'extraire les address ip avec les noms des comptes d'un fichier catalina qui contient des logs du jours en entrant un clé du recherche exemple "athentification réussie" ou "il reste 1 tentative"... et en entrant un faisseau horraire spéciphique du jour
+
+
+! changer les paths indiquées dans le script selon votre cas 
